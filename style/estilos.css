@@ -410,13 +410,17 @@ font-weight: bold;
 		font-size: 18px;
 	}
 
+	.ContenidoPortada{
+		padding: 40px;
+	}
+
 	.CuerpoUbicacion iframe{
 		width: 40vh; 
 		height: 40vh;
 	}
 
 	.CuerpoUbicacion{
-		padding-left: 60px;
+		padding-left: 40px;
 		padding-top: 120px;
 	}
 
