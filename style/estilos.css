@@ -1,0 +1,562 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: sans-serif; 
+	box-sizing: border-box;
+}
+
+header{
+	position: fixed;/*Para que se mantenga por ensima del resto de la pagina*/
+	top: 0;
+	left: 0; 
+	width: 100%;
+	height: 100px;
+	background-color: rgb(240, 240, 240);
+	box-shadow: 0 4px 25px -22px black;
+	/*El 0 quiere decir que no va a tener movimiento o agrandarse de izq a der, 
+	y en 4 para el grosor hacia abajo, 25 es la cantidad de sombra y el tamaño de la sombra del -22*/
+	z-index: 2; /* para asegurarnos de que el header este x ensima de todo*/
+}
+
+
+.Encabezado{
+	max-width: 1200px; /*justificar*/
+	display: flex;
+	box-sizing: border-box;
+	justify-content: space-between;
+	margin: auto;
+}
+
+.Titulo{
+	width: 50%;
+	height: 100px;
+	/*background-color: red;*/
+}
+
+
+.Titulo p{
+	color: rgb(37, 31, 148);
+	font-size: 40px;
+	font-style: oblique;
+	line-height: 1;	
+	margin-top: 10px;
+}
+
+.Titulo p span{
+	color: rgb(37, 31, 148);
+	font-size: 30px;
+	font-style: oblique;	
+	margin-left: 12%;
+}
+
+
+#chequear{
+	display: none;
+}
+
+.iconoMenu{
+	display: none;
+}
+
+
+.Menu{
+	width: 50%;
+	height: 100px;
+	/*background-color: green;*/
+}
+
+
+.Menu nav ul{
+	display: flex;
+	float: right;
+	padding-top: 20px;
+}
+
+.Menu nav ul li{
+	margin: 0px 5px;
+	list-style: none;
+	display: flex;
+}
+
+.Menu a{
+	padding: 10px;
+	font-size: 10;
+	border-radius: 10px;
+	color: rgb(37, 31, 148);
+	border-style: solid;
+	border-bottom-color: rgb(37, 31, 148);
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.Menu a:hover{
+	color: rgb(37, 31, 148);
+	border-bottom-color: rgb(37, 31, 148);
+	background-color: rgba(127, 127, 127, 0.5);	
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 300ms;
+}
+
+/*PORTADA*/
+
+.Portada{
+	top: 100px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	height: 85,5vh;
+	position: absolute;
+	background-image: url("../img/martillitoOscuro2.jpg");
+	background-position: center;
+	background-size: cover;/*para que se adapte a la pantalla, si se agranda la imagen tambien*/
+	background-repeat: no-repeat;
+}
+
+.ContenidoPortada{
+	width: 50%;
+	height: 100%;
+	padding: 75px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	
+}
+
+.ContenidoPortada p{
+	line-height: 1,5;
+	font-size: 25px;
+	color: rgb(240, 240, 240);
+}
+
+.ubicacionPortada{
+	background-color: rgb(207, 207, 207);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+
+}
+
+.CuerpoUbicacion{
+	display: inline-block;
+	text-align: center;
+	padding-top: 160px;
+	padding-left: 100px;
+}
+
+.Contactos{
+	border: 8px solid green;
+	margin-left: 200px;
+	display: inline-block;
+	width: 400px;
+	height: 450px;
+	border-radius: 10px;
+	border-color: rgb(37, 31, 148);
+	text-align: left;
+	position: relative;
+	bottom: 102px;
+}
+
+.Contactos a{
+	font-size: 20px; 
+	color: rgb(37, 31, 148);
+	text-decoration-line: none;
+	/*cursor: pointer;*/
+}
+
+.Contactos a:hover{
+color: rgb(37, 31, 148);
+text-decoration-line: none;
+font-weight: bold;
+}
+
+.Contactos p{
+	font-size: 20px; 
+	color: rgb(37, 31, 148);
+	text-decoration-line: none;
+}
+
+.uno{
+	padding-bottom: 20px;
+	padding-top: 63px;
+}
+
+.dos{
+	padding-bottom: 20px;
+	padding-top: 63px;
+}
+
+.tres{
+	padding-bottom: 20px;
+	padding-top: 63px;
+}
+
+.dos img{
+	float: left;
+	margin-left: 100px;
+	margin-top: 4px;
+	margin-right: 5px;
+}
+
+.uno img{
+	float: left;
+	margin-left: 50px;
+	margin-top: 4px;
+	margin-right: 5px;
+}
+
+.uno p{
+	text-align: left;
+}
+
+.tres img{
+	float: left;
+	margin-left: 60px;
+	margin-top: 4px;	
+	margin-right: 5px;
+}
+
+
+/*RESPONSIVE*/
+@media screen and (max-width: 1000px){
+	
+	.Titulo{
+		width: 100%;
+		height: 100%;
+	}
+
+	.Menu{
+		width: 100%;
+		height: 100vh;
+		position: absolute;
+		top: 100px;
+		background-color: rgb(240, 240, 240); /*CAMBIAR COLOR MENU RESPONSIVE*/
+		transform: translateX(-100%); /*para que se oculte*/
+		transition: all 500ms;
+	}
+		
+	.Menu nav ul{
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		background: rgba(0, 0, 0, 0.3);
+		
+	}/*hace que se ponga uno abajo del otro*/
+
+	.Menu nav ul li{
+		margin-bottom: 10px;
+	}
+
+	.iconoMenu{
+	text-align: center;
+	display: block;
+	width:50px;
+  	height:50px;
+  	padding-top: 10px;
+  	margin-top: 22px;/*mueve el circulo gris*/
+  	margin-right: 5px;
+	}
+
+	.iconoMenu img{
+		width: 30px;
+		height: 30px;
+	}
+
+	.iconoMenu:hover{
+		background-color: rgba(127, 127, 127, 0.5);
+		cursor: pointer;
+		border-radius: 50px;
+		transition: all 1000ms;
+	}
+
+	#chequear:checked ~ .Menu{
+		transform: translateX(0);
+	}
+
+	.Titulo p{
+		text-align: center;
+	}		
+
+	.Titulo p span{
+		margin-left: 0;
+	}
+
+	.ContenidoPortada{
+		width: 100%;
+		height: 100%;
+		padding: 75px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+
+	.ContenidoPortada p{
+		font-size: 20px;
+	}
+
+	.CuerpoUbicacion iframe{
+		width: 60vh; 
+		height: 40vh;
+		
+	}
+
+	.CuerpoUbicacion{
+		padding-left: 63px;
+}
+
+	
+.Contactos{
+	border: 8px solid green;
+	margin-left: 0px;
+	display: flex;
+	width: 450px;
+	height: 130px;
+	border-radius: 10px;
+	border-color: rgb(37, 31, 148);
+	text-align: center;
+	position: relative;
+	right: -20px;
+	bottom: 0px;
+	margin-top: 20px;
+	padding-top: 10px;
+
+}
+	
+.Contactos p{
+	font-size: 12px; 
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.uno{
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-left: 10px;
+}
+
+.dos{
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+.tres{
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.uno img{
+	float: none;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+}
+
+.uno p{
+	text-align: left;
+}
+
+.dos img{
+	float: none;
+	margin-left: 0px;
+	margin-top: 4px;
+	margin-right: 5px;
+}
+
+.tres{
+	margin-left: 20px;
+}
+
+.tres img{
+	float: left;
+	margin-left: 60px;
+	margin-top: 4px;	
+	margin-right: 5px;
+}
+
+.Contactos a{
+	font-size: 12px; 
+}
+
+}
+
+@media screen and (max-width: 340px){
+	
+	.Titulo{
+		width: 100%;
+		height: 100%;
+	}
+
+	.Titulo p{
+		font-size: 25px;
+	}
+
+	.Menu{
+		width: 100%;
+		height: 100vh;
+		position: absolute;
+		top: 100px;
+		background-color: rgb(240, 240, 240); /*CAMBIAR COLOR MENU RESPONSIVE*/
+		transform: translateX(-100%); /*para que se oculte*/
+		transition: all 500ms;
+	}
+		
+	.Menu nav ul{
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		background: rgba(0, 0, 0, 0.3);
+		
+	}/*hace que se ponga uno abajo del otro*/
+
+	.Menu nav ul li{
+		margin-bottom: 10px;
+	}
+
+	.iconoMenu{
+	text-align: center;
+	display: block;
+	width:50px;
+  	height:50px;
+  	padding-top: 10px;
+  	margin-top: 22px;/*mueve el circulo gris*/
+  	margin-right: 5px;
+	}
+
+	.iconoMenu img{
+		width: 30px;
+		height: 30px;
+	}
+
+	.iconoMenu:hover{
+		background-color: rgba(127, 127, 127, 0.5);
+		cursor: pointer;
+		border-radius: 50px;
+		transition: all 1000ms;
+	}
+
+	#chequear:checked ~ .Menu{
+		transform: translateX(0);
+	}
+
+	.Titulo p{
+		text-align: center;
+	}		
+
+	.Titulo p span{
+		margin-left: 0;
+	}
+
+	.ContenidoPortada{
+		width: 100%;
+		height: 100%;
+		padding: 75px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+
+	.ContenidoPortada p{
+		font-size: 20px;
+	}
+
+	.CuerpoUbicacion iframe{
+		width: 60vh; 
+		height: 40vh;
+		
+	}
+
+	.CuerpoUbicacion{
+		padding-left: 63px;
+}
+
+	
+.Contactos{
+	border: 8px solid green;
+	margin-left: 0px;
+	display: flex;
+	width: 450px;
+	height: 130px;
+	border-radius: 10px;
+	border-color: rgb(37, 31, 148);
+	text-align: center;
+	position: relative;
+	right: -20px;
+	bottom: 0px;
+	margin-top: 20px;
+	padding-top: 10px;
+
+}
+	
+.Contactos p{
+	font-size: 12px; 
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.uno{
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-left: 10px;
+}
+
+.dos{
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+.tres{
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.uno img{
+	float: none;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+}
+
+.uno p{
+	text-align: left;
+}
+
+.dos img{
+	float: none;
+	margin-left: 0px;
+	margin-top: 4px;
+	margin-right: 5px;
+}
+
+.tres{
+	margin-left: 20px;
+}
+
+.tres img{
+	float: left;
+	margin-left: 60px;
+	margin-top: 4px;	
+	margin-right: 5px;
+}
+
+.Contactos a{
+	font-size: 12px; 
+}
+
+}
+
