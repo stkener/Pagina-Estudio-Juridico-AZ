@@ -398,16 +398,16 @@ font-weight: bold;
 	
 	.Titulo p{
 		text-align: center;
-		font-size: 20px;
+		font-size: 30px;
 	}		
 	
 	.Titulo p span{
 		margin-left: 0;
-		font-size: 15px;
+		font-size: 25px;
 	}
 
 	.ContenidoPortada p{
-		font-size: 15px;
+		font-size: 18px;
 	}
 
 	.CuerpoUbicacion iframe{
@@ -416,7 +416,7 @@ font-weight: bold;
 	}
 
 	.CuerpoUbicacion{
-		padding-left: 40px;
+		padding-left: 60px;
 		padding-top: 120px;
 	}
 
