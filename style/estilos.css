@@ -454,9 +454,10 @@ font-weight: bold;
 		text-align: center;
 		font-size: 20px;
 	}		
-
+	
 	.Titulo p span{
 		margin-left: 0;
+		font-size: 15px;
 	}
 
 	.ContenidoPortada{
