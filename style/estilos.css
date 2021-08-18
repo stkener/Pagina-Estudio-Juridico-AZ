@@ -394,62 +394,8 @@ font-weight: bold;
 /*-----------------------------------------------------------------*/
 /*----------------------RESPONSIVE CELULAR-------------------------*/
 /*-----------------------------------------------------------------*/
-@media screen and (max-width: 320px){
+@media screen and (max-width: 365px){
 	
-	.Titulo{
-		width: 100%;
-		height: 100%;
-	}
-
-	.Menu{
-		width: 100%;
-		height: 100vh;
-		position: absolute;
-		top: 100px;
-		background-color: rgb(240, 240, 240); /*CAMBIAR COLOR MENU RESPONSIVE*/
-		transform: translateX(-100%); /*para que se oculte*/
-		transition: all 500ms;
-	}
-		
-	.Menu nav ul{
-		display: block;
-		position: absolute;
-		width: 100%;
-		height: 100vh;
-		background: rgba(0, 0, 0, 0.3);
-		
-	}/*hace que se ponga uno abajo del otro*/
-
-	.Menu nav ul li{
-		margin-bottom: 10px;
-	}
-
-	.iconoMenu{
-	text-align: center;
-	display: block;
-	width:50px;
-  	height:50px;
-  	padding-top: 10px;
-  	margin-top: 22px;/*mueve el circulo gris*/
-  	margin-right: 5px;
-	}
-
-	.iconoMenu img{
-		width: 30px;
-		height: 30px;
-	}
-
-	.iconoMenu:hover{
-		background-color: rgba(127, 127, 127, 0.5);
-		cursor: pointer;
-		border-radius: 50px;
-		transition: all 1000ms;
-	}
-
-	#chequear:checked ~ .Menu{
-		transform: translateX(0);
-	}
-
 	.Titulo p{
 		text-align: center;
 		font-size: 20px;
@@ -460,46 +406,28 @@ font-weight: bold;
 		font-size: 15px;
 	}
 
-	.ContenidoPortada{
-		width: 100%;
-		height: 100%;
-		padding: 75px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-	}
-
 	.ContenidoPortada p{
 		font-size: 15px;
 	}
 
 	.CuerpoUbicacion iframe{
-		width: 60vh; 
+		width: 40vh; 
 		height: 40vh;
-		
 	}
 
 	.CuerpoUbicacion{
-		padding-left: 63px;
-}
+		padding-left: 40px;
+		padding-top: 120px;
+	}
 
-	
 .Contactos{
-	border: 8px solid green;
-	margin-left: 0px;
-	display: flex;
-	width: 450px;
-	height: 130px;
-	border-radius: 10px;
-	border-color: rgb(37, 31, 148);
-	text-align: center;
-	position: relative;
+	width: 318px;
+	height: 150px;
+	display: inline-block;
 	right: -20px;
 	bottom: 0px;
 	margin-top: 20px;
 	padding-top: 10px;
-
 }
 	
 .Contactos p{
@@ -511,53 +439,58 @@ font-weight: bold;
 .uno{
 	padding-bottom: 0px;
 	padding-top: 0px;
-	margin-left: 10px;
+	margin-left: 60px;
 }
 
 .dos{
 	padding-bottom: 0px;
-	padding-top: 0px;
-	margin-top: 50px;
-	margin-left: 20px;
+	padding-top: 5px;
+	margin-top: 0px;
+	margin-left: 60px;
 }
 
 .tres{
 	padding-bottom: 0px;
-	padding-top: 0px;
+	padding-top: 5px;
+	margin-left: 60px;
 }
 
 .uno img{
-	float: none;
+	float: left;
 	margin-left: 0px;
 	margin-top: 0px;
-	margin-right: 0px;
+	margin-right: 20px;
 }
 
 .uno p{
 	text-align: left;
+	padding-top: 3px;
 }
 
 .dos img{
-	float: none;
+	float: left;
 	margin-left: 0px;
-	margin-top: 4px;
-	margin-right: 5px;
+	margin-top: 0px;
+	margin-right: 20px;
 }
 
-.tres{
-	margin-left: 20px;
+.dos p{
+	text-align: left;	
+	padding-top: 3px;
 }
 
 .tres img{
 	float: left;
-	margin-left: 60px;
-	margin-top: 4px;	
-	margin-right: 5px;
+	margin-left: 0px;
+	margin-top: 0px;	
+	margin-right: 20px;
 }
 
-.Contactos a{
-	font-size: 12px; 
+.tres p{
+	text-align: left;
+	padding-top: 3px;	
 }
+
 
 }
 
