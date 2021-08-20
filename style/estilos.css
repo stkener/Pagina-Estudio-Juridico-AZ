@@ -51,6 +51,7 @@ header{
 	margin-left: 12%;
 }
 
+/*----------------------MENU-------------------------*/
 
 #chequear{
 	display: none;
@@ -66,7 +67,6 @@ header{
 	height: 100px;
 	/*background-color: green;*/
 }
-
 
 .Menu nav ul{
 	display: flex;
@@ -100,7 +100,7 @@ header{
 	transition: all 300ms;
 }
 
-/*PORTADA*/
+/*----------------------PORTADA-------------------------*/
 
 .Portada{
 	top: 100px;
@@ -133,6 +133,8 @@ header{
 	color: rgb(240, 240, 240);
 }
 
+/*----------------------CONTACTOSs-------------------------*/
+
 .ubicacionPortada{
 	background-color: rgb(207, 207, 207);
 	position: absolute;
@@ -142,7 +144,6 @@ header{
 	bottom: 0;
 	right: 0;
 	left: 0;
-
 }
 
 .CuerpoUbicacion{
@@ -222,6 +223,105 @@ font-weight: bold;
 	margin-left: 60px;
 	margin-top: 4px;	
 	margin-right: 5px;
+}
+
+/*----------------------SERVICIOS-------------------------*/
+
+.servicios{
+	top: 100px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	height: 85.5vh;
+	background-color: rgb(207, 207, 207);
+	position: relative;
+	padding-left: 140px;
+	padding-top: 25px;
+	
+}
+
+.servicios img{
+	width: 300px;
+	height: 180px;
+}
+
+.servicios p{
+	width: 300px;
+	height: 180px;	
+	background-color: rgb(37, 31, 148);
+	color: rgb(240, 240, 240);
+	text-align: center;
+}
+
+
+.accidentesUno{
+	width: 600px;
+	height: 180px;
+	display: flex;
+}
+
+.accidentesDos{
+	width: 600px;
+	height: 180px;
+	display: flex;	
+}
+
+.accidentesDos p{
+	padding-top: 18px;
+}
+
+.jubilaciones{
+	width: 600px;
+	height: 180px;
+	display: flex;
+}
+
+.jubilaciones p{
+	padding-top: 18px;
+}
+
+.gestoria{
+	width: 600px;
+	height: 180px;
+	display: flex;
+	position: relative;
+	left: 600px;
+	top: -540px;	 
+}
+
+.gestoria p{
+	padding-top: 18px;	
+}
+
+.divorcios{
+	width: 600px;
+	height: 180px;
+	display: flex;
+	position: relative;
+	left: 600px;
+	top: -540px;	
+}
+
+.divorcios p{
+	padding-right: 3px;
+	padding-left:  3px;
+	padding-top: 2px;
+}
+
+.asesoramiento{
+	width: 600px;
+	height: 180px;
+	display: flex;
+	position: relative;
+	left: 600px;
+	top: -540px;	
+}
+
+.asesoramiento p{
+	padding-right: 3px;
+	padding-left:  3px;
+	padding-top: 2px;	
 }
 
 /*-----------------------------------------------------------------*/
