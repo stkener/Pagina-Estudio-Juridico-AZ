@@ -154,16 +154,17 @@ header{
 }
 
 .Contactos{
-	border: 8px solid green;
-	margin-left: 200px;
+	border: 8px solid;
+	margin-left: 15%;
 	display: inline-block;
 	width: 400px;
 	height: 450px;
 	border-radius: 10px;
 	border-color: rgb(37, 31, 148);
-	text-align: left;
-	position: relative;
-	bottom: 102px;
+	/*text-align: left;*/
+	position: absolute;
+	/*bottom: 102px;*/
+	top: 160px;
 }
 
 .Contactos a{
@@ -176,7 +177,7 @@ header{
 .Contactos a:hover{
 color: rgb(37, 31, 148);
 text-decoration-line: none;
-font-weight: bold;
+/*font-weight: bold;*/
 }
 
 .Contactos p{
@@ -238,7 +239,6 @@ font-weight: bold;
 	position: relative;
 	padding-left: 140px;
 	padding-top: 25px;
-	
 }
 
 .servicios img{
@@ -253,7 +253,6 @@ font-weight: bold;
 	color: rgb(240, 240, 240);
 	text-align: center;
 }
-
 
 .accidentesUno{
 	width: 600px;
@@ -405,14 +404,16 @@ font-weight: bold;
 		font-size: 20px;
 	}
 
-	.CuerpoUbicacion iframe{
-		width: 60vh; 
-		height: 40vh;
-		
-	}
+/*----------------------CONTACTOS-------------------------*/
 
-	.CuerpoUbicacion{
-		padding-left: 63px;
+.CuerpoUbicacion iframe{
+	width: 60vh; 
+	height: 40vh;
+		
+}
+
+.CuerpoUbicacion{
+	padding-left: 63px;
 }
 
 	
@@ -428,6 +429,7 @@ font-weight: bold;
 	position: relative;
 	right: -20px;
 	bottom: 0px;
+	top: 0px;
 	margin-top: 20px;
 	padding-top: 10px;
 
@@ -586,6 +588,8 @@ font-weight: bold;
 		padding: 50px;
 	}
 
+/*----------------------CONTACTOS-------------------------*/
+
 	.CuerpoUbicacion iframe{
 		width: 45vh; 
 		height: 40vh;
@@ -681,7 +685,6 @@ font-weight: bold;
 	padding-left: 20px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	
 }
 
 .servicios img{
@@ -711,7 +714,6 @@ font-weight: bold;
 	display: block;	
 	width: 300px;
 	height: 360px;
-	
 }
 
 .accidentesDos p{
