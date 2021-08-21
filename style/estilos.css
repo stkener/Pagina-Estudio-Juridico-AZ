@@ -490,6 +490,78 @@ font-weight: bold;
 	font-size: 12px; 
 }
 
+/*----------------------SERVICIOS-------------------------*/
+
+.servicios{
+	padding-left: 20%;
+	padding-right: 20%;
+	height: 100%;
+}
+
+.accidentesDos{
+	margin-top: 20px;
+}
+
+.jubilaciones{
+	margin-top: 20px;
+}
+
+.gestoria{
+	margin-top: 20px;	
+	left: 0px;
+	top: 0px;	 
+}
+
+.gestoria img{
+	position: relative;
+	left: 300px;
+}
+
+.gestoria p{
+	padding-top: 18px;	
+	position: relative;
+	right: 300px;
+}
+
+.divorcios{
+	margin-top: 20px;	
+	left: 0px;
+	top: 0px;
+}
+
+.divorcios img{
+	position: relative;
+	right: 300px;
+}
+
+.divorcios p{
+	padding-right: 3px;
+	padding-left:  3px;
+	padding-top: 2px;
+	position: relative;
+	left: 300px;
+}
+
+.asesoramiento{
+	margin-top: 20px;	
+	left: 0px;
+	top: 0px;
+	height: 200px;
+}
+
+.asesoramiento img{
+	position: relative;
+	left: 300px;
+}
+
+.asesoramiento p{
+	padding-right: 3px;
+	padding-left:  3px;
+	padding-top: 2px;
+	position: relative;
+	right: 300px;	
+}
+
 }
 /*-----------------------------------------------------------------*/
 /*----------------------RESPONSIVE CELULAR-------------------------*/
@@ -595,6 +667,18 @@ font-weight: bold;
 	padding-top: 3px;	
 }
 
+/*----------------------SERVICIOS-------------------------*/
+
+.servicios img{
+	width: 150px;
+	height: 90px;
+}
+
+.servicios p{
+	width: 150px;
+	height: 90px;	
+	font-size: 12px;
+}
 
 }
 
