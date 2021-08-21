@@ -703,14 +703,37 @@ font-weight: bold;
 .accidentesDos{
 	display: block;	
 	margin-top: 20px;
+	width: 300px;
+	height: 360px;
+	
 }
 
 .jubilaciones{
 	display: block;	
 	margin-top: 20px;	
+	width: 300px;
+	height: 360px;
 }
 
+.gestoria{
+	display: block;	
+	margin-top: 20px;	
+	width: 300px;
+	height: 360px;
+}
 
+.divorcios{
+	display: block;	
+	margin-top: 20px;	
+	width: 300px;
+	height: 360px;
+}
 
+.asesoramiento{
+	display: block;	
+	margin-top: 20px;	
+	width: 300px;
+	height: 360px;
+}
 }
 
