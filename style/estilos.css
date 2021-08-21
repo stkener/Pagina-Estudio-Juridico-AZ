@@ -717,13 +717,13 @@ font-weight: bold;
 .accidentesDos p{
 	margin: 0px;
 	position: relative;
-	bottom: 180px;
+	bottom: -360px;
 }
 
 .accidentesDos img{
 	margin: 0px;
 	position: relative;
-	top: 180px;
+	top: -360px;
 }
 
 .jubilaciones{
@@ -755,13 +755,13 @@ font-weight: bold;
 .divorcios p{
 	margin: 0px;
 	position: relative;
-	bottom: 180px;
+	
 }
 
 .divorcios img{
 	margin: 0px;
 	position: relative;
-	top:180px;
+	
 }
 
 .asesoramiento{
