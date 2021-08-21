@@ -716,13 +716,13 @@ font-weight: bold;
 
 .accidentesDos p{
 	margin: 0px;
-	position: relative;
+	position: absolute;
 	bottom: 300px;
 }
 
 .accidentesDos img{
 	margin: 0px;
-	position: relative;
+	position: absolute;
 	top: 300px;
 }
 
@@ -754,13 +754,13 @@ font-weight: bold;
 
 .divorcios p{
 	margin: 0px;
-	position: relative;
+	position: absolute;
 	bottom: 300px;
 }
 
 .divorcios img{
 	margin: 0px;
-	position: relative;
+	position: absolute;
 	top:300px;
 }
 
