@@ -670,13 +670,13 @@ font-weight: bold;
 /*----------------------SERVICIOS-------------------------*/
 
 .servicios img{
-	width: 190px;
-	height: 114px;
+	width: 180px;
+	height: 110px;
 }
 
 .servicios p{
-	width: 190px;
-	height: 114px;	
+	width: 180px;
+	height: 110px;	
 	font-size: 11px;
 }
 
@@ -690,11 +690,11 @@ font-weight: bold;
 }
 
 .accidentesDos p{
-	margin-top: 3px;
+	padding-top: 3px;
 }
 
 .jubilaciones{
-	margin-top: 0px;
+	padding-top: 3px;
 }
 
 .gestoria{
