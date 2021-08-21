@@ -677,6 +677,9 @@ font-weight: bold;
 	width: 100%;
 	height: 85.5vh;
 	background-color: rgb(207, 207, 207);
+	position: relative;
+	padding-left: 140px;
+	padding-top: 25px;
 	
 }
 
@@ -692,6 +695,21 @@ font-weight: bold;
 	color: rgb(240, 240, 240);
 	text-align: center;
 }
+
+.accidentesUno{
+	display: block;
+}
+
+.accidentesDos{
+	display: block;	
+	margin-top: 20px;
+}
+
+.jubilaciones{
+	display: block;	
+	margin-top: 20px;	
+}
+
 
 
 }
