@@ -916,7 +916,7 @@ text-decoration-line: none;
 }
 /*-------------------------NOSOTROS----------------------------*/
 .nosotrosPortada{
-	padding-bottom: 20px;
+	
 }
 
 .nosotros{
@@ -932,6 +932,8 @@ text-decoration-line: none;
 }
 
 .nosotros p{
+	width: 100%;
+	height: 100%;
 	font-size: 12px; 
 	padding-bottom: 0px;
 	margin right: 20px;
