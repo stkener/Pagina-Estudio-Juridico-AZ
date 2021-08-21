@@ -671,14 +671,82 @@ font-weight: bold;
 
 .servicios img{
 	width: 200px;
-	height: 120px;
+	height: 130px;
 }
 
 .servicios p{
 	width: 200px;
-	height: 120px;	
+	height: 130px;	
 	font-size: 12px;
 }
 
+.servicios{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.accidentesDos{
+	margin-top: 5px;
+}
+
+.jubilaciones{
+	margin-top: 5px;
+}
+
+.gestoria{
+	margin-top: 5px;	
+	left: 0px;
+	top: 0px;	 
+}
+
+.gestoria img{
+	position: relative;
+	left: 200px;
+}
+
+.gestoria p{
+	padding-top: 5px;	
+	position: relative;
+	right: 200px;
+}
+
+.divorcios{
+	margin-top: 5px;	
+	left: 0px;
+	top: 0px;
+}
+
+.divorcios img{
+	position: relative;
+	right: 200px;
+}
+
+.divorcios p{
+	padding-right: 3px;
+	padding-left:  3px;
+	padding-top: 2px;
+	position: relative;
+	left: 200px;
+}
+
+.asesoramiento{
+	margin-top: 5px;	
+	left: 0px;
+	top: 0px;
+	height: 200px;
+}
+
+.asesoramiento img{
+	position: relative;
+	left: 200px;
+}
+
+.asesoramiento p{
+	padding-right: 3px;
+	padding-left:  3px;
+	padding-top: 2px;
+	position: relative;
+	right: 200px;	
+}
 }
 
