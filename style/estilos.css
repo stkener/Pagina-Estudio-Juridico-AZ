@@ -711,7 +711,7 @@ font-weight: bold;
 	display: block;	
 	width: 300px;
 	height: 360px;
-	margin-top: 10px;
+	margin-top: -20px;
 }
 
 .accidentesDos p{
@@ -755,7 +755,7 @@ font-weight: bold;
 .divorcios p{
 	margin: 0px;
 	position: relative;
-	right: 50px;
+	right: -100px;
 	bottom: -180px;
 }
 
