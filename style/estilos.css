@@ -916,7 +916,7 @@ text-decoration-line: none;
 }
 /*-------------------------NOSOTROS----------------------------*/
 .nosotrosPortada{
-	height: 100%;
+	padding-bottom: 20px;
 }
 
 .nosotros{
