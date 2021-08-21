@@ -669,14 +669,18 @@ font-weight: bold;
 
 /*----------------------SERVICIOS-------------------------*/
 
+.servicios{
+	position: absolute;
+}
+
 .servicios img{
-	width: 180px;
-	height: 110px;
+	width: 200px;
+	height: 120px;
 }
 
 .servicios p{
-	width: 180px;
-	height: 110px;	
+	width: 200px;
+	height: 120px;	
 	font-size: 11px;
 }
 
@@ -718,7 +722,7 @@ font-weight: bold;
 .gestoria p{
 	padding-top: 5px;	
 	position: relative;
-	right: 200px;
+	
 }
 
 .divorcios{
@@ -730,7 +734,7 @@ font-weight: bold;
 
 .divorcios img{
 	position: relative;
-	right: 200px;
+	
 }
 
 .divorcios p{
@@ -738,7 +742,7 @@ font-weight: bold;
 	padding-left:  3px;
 	padding-top: 2px;
 	position: relative;
-	left: 200px;
+	
 }
 
 .asesoramiento{
@@ -746,12 +750,12 @@ font-weight: bold;
 	padding-bottom: 0px;
 	left: 0px;
 	top: 0px;
-	height: 200px;
+	
 }
 
 .asesoramiento img{
 	position: relative;
-	left: 200px;
+	
 }
 
 .asesoramiento p{
@@ -759,7 +763,7 @@ font-weight: bold;
 	padding-left:  3px;
 	padding-top: 2px;
 	position: relative;
-	right: 200px;	
+	
 }
 }
 
