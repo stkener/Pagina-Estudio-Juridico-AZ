@@ -161,9 +161,9 @@ header{
 	height: 450px;
 	border-radius: 10px;
 	border-color: rgb(37, 31, 148);
-	/*text-align: left;*/
+	text-align: left;
 	position: absolute;
-	/*bottom: 102px;*/
+	bottom: 102px;
 	top: 160px;
 }
 
@@ -406,57 +406,68 @@ text-decoration-line: none;
 
 /*----------------------CONTACTOS-------------------------*/
 
-.CuerpoUbicacion iframe{
-	width: 60vh; 
-	height: 40vh;
-		
+.ubicacionPortada{
+	
+	padding-right: 5%;
 }
 
 .CuerpoUbicacion{
-	padding-left: 63px;
+	width: 100%;
+	position:relative;
+	padding-top: 120px;
+	padding-right: 5%;
+	overflow: hidden;
 }
 
+.CuerpoUbicacion iframe{
+	width: 100%; 
+	height: 50vh;
+	/*width: 105vh;*/
+ }
 	
 .Contactos{
-	border: 8px solid green;
-	margin-left: 0px;
+	margin-top: 20px;
+	margin-left: 3%;
+	margin-right: 3%;
 	display: flex;
-	width: 450px;
+	width: 100%;
 	height: 130px;
-	border-radius: 10px;
-	border-color: rgb(37, 31, 148);
 	text-align: center;
 	position: relative;
-	right: -20px;
-	bottom: 0px;
-	top: 0px;
-	margin-top: 20px;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
 	padding-top: 10px;
-
+	padding-right: 5%;
 }
 	
 .Contactos p{
-	font-size: 12px; 
+	font-size: 15px; 
 	padding-bottom: 0px;
 	padding-top: 0px;
+	
 }
 
 .uno{
 	padding-bottom: 0px;
 	padding-top: 0px;
-	margin-left: 10px;
+	margin-left: 10%;
 }
 
 .dos{
 	padding-bottom: 0px;
 	padding-top: 0px;
-	margin-top: 50px;
-	margin-left: 20px;
+	margin-top: 0px;
+	margin-left:10%;
 }
 
 .tres{
 	padding-bottom: 0px;
 	padding-top: 0px;
+	margin-left: 10%;
+	
+
 }
 
 .uno img{
@@ -477,19 +488,15 @@ text-decoration-line: none;
 	margin-right: 5px;
 }
 
-.tres{
-	margin-left: 20px;
-}
-
 .tres img{
-	float: left;
-	margin-left: 60px;
+	float: none;
+	margin-left: 0px;
 	margin-top: 4px;	
 	margin-right: 5px;
 }
 
 .Contactos a{
-	font-size: 12px; 
+	font-size: 15px; 
 }
 
 /*----------------------SERVICIOS-------------------------*/
@@ -564,6 +571,77 @@ text-decoration-line: none;
 	right: 300px;	
 }
 
+}
+
+/*-----------------------------------------------------------------*/
+/*----------------------RESPONSIVE 700 - 365-----------------------*/
+/*-----------------------------------------------------------------*/
+@media screen and (max-width: 700px){
+.Comtactos{
+	padding: 0px;
+	padding-top: 10px;
+}
+
+.Contactos p{
+	font-size: 12px; 
+	padding-bottom: 0px;
+	padding-top: 0px;
+
+}
+
+.uno{
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-left: 10px;
+	position: static;
+}
+
+.dos{
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-top: 50px;
+	margin-left: 20px;
+	position: static;
+}
+
+.tres{
+	padding-bottom: 0px;
+	padding-top: 0px;
+	position: static;
+}
+
+.uno img{
+	float: none;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+}
+
+.uno p{
+	text-align: left;
+}
+
+.dos img{
+	float: none;
+	margin-left: 0px;
+	margin-top: 4px;
+	margin-right: 5px;
+}
+
+.tres{
+	margin-left: 20px;
+}
+
+.tres img{
+	float: left;
+	margin-left: 60px;
+	margin-top: 4px;	
+	margin-right: 5px;
+}
+
+.Contactos a{
+	font-size: 12px; 
+}
 }
 /*-----------------------------------------------------------------*/
 /*----------------------RESPONSIVE CELULAR-------------------------*/
