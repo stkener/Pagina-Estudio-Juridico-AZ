@@ -726,6 +726,7 @@ font-weight: bold;
 }
 
 .divorcios{
+	display: block;
 	margin-top: 0px;
 	padding-bottom: 0px;	
 	left: 0px;
@@ -734,7 +735,7 @@ font-weight: bold;
 
 .divorcios img{
 	position: relative;
-	
+	left: 100px;
 }
 
 .divorcios p{
@@ -742,10 +743,11 @@ font-weight: bold;
 	padding-left:  3px;
 	padding-top: 2px;
 	position: relative;
-	
+	left: 100px;
 }
 
 .asesoramiento{
+	display: block;
 	margin-top: 0px;
 	padding-bottom: 0px;
 	left: 0px;
@@ -755,7 +757,7 @@ font-weight: bold;
 
 .asesoramiento img{
 	position: relative;
-	
+	left: 100px;
 }
 
 .asesoramiento p{
