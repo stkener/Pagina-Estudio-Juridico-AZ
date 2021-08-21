@@ -670,13 +670,13 @@ font-weight: bold;
 /*----------------------SERVICIOS-------------------------*/
 
 .servicios img{
-	width: 150px;
-	height: 90px;
+	width: 200px;
+	height: 120px;
 }
 
 .servicios p{
-	width: 150px;
-	height: 90px;	
+	width: 200px;
+	height: 120px;	
 	font-size: 12px;
 }
 
