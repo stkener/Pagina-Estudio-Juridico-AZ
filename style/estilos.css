@@ -323,6 +323,35 @@ text-decoration-line: none;
 	padding-top: 2px;	
 }
 
+/*----------------------NOSOTROS-------------------------*/
+.nosotrosPortada{
+	top: 100px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	height: 85,5vh;
+	position: absolute;
+	background-color: rgb(207, 207, 207);
+	background-size: cover;
+}
+
+.nosotros{
+	width: 100%;
+	height: 100%;
+	padding: 75px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.nosotros p{
+	line-height: 1,5;
+	font-size: 25px;
+	color: rgb(37, 31, 148);
+	margin-left: 10px;
+}
 /*-----------------------------------------------------------------*/
 /*----------------------RESPONSIVE TABLET-------------------------*/
 /*-----------------------------------------------------------------*/
@@ -357,13 +386,13 @@ text-decoration-line: none;
 	}
 
 	.iconoMenu{
-	text-align: center;
-	display: block;
-	width:50px;
-  	height:50px;
-  	padding-top: 10px;
-  	margin-top: 22px;/*mueve el circulo gris*/
-  	margin-right: 5px;
+		text-align: center;
+		display: block;
+		width:50px;
+  		height:50px;
+  		padding-top: 10px;
+  		margin-top: 22px;/*mueve el circulo gris*/
+  		margin-right: 5px;
 	}
 
 	.iconoMenu img{
@@ -570,7 +599,22 @@ text-decoration-line: none;
 	position: relative;
 	right: 300px;	
 }
+/*----------------------------NOSOTROS-----------------------------*/
+.nosotros{
+	padding: 20px;
+}
 
+.nosotros img{
+	width: 50%;
+	height: 50%;
+	position: relative;
+
+}
+
+.nosotros p{
+	padding-top: 18px;
+	font-size: 18px; 
+}
 }
 
 /*-----------------------------------------------------------------*/
@@ -641,6 +685,11 @@ text-decoration-line: none;
 
 .Contactos a{
 	font-size: 12px; 
+}
+
+.nosotros p{
+	padding-top: 20px;
+	font-size: 14px; 
 }
 }
 /*-----------------------------------------------------------------*/
@@ -860,6 +909,10 @@ text-decoration-line: none;
 
 .asesoramiento img{
 	position: static;
+}
+
+.nosotros p{
+	font-size: 12px; 
 }
 }
 
