@@ -264,7 +264,7 @@ font-weight: bold;
 .accidentesDos{
 	width: 600px;
 	height: 180px;
-	display: flex;	
+	display: flex;
 }
 
 .accidentesDos p{
@@ -678,8 +678,8 @@ font-weight: bold;
 	height: 85.5vh;
 	background-color: rgb(207, 207, 207);
 	position: relative;
-	padding-left: 140px;
-	padding-top: 25px;
+	padding-left: 20px;
+	padding-top: 10px;
 	
 }
 
@@ -697,6 +697,8 @@ font-weight: bold;
 }
 
 .accidentesUno{
+	width: 300px;
+	height: 360px;
 	display: block;
 }
 
@@ -722,6 +724,14 @@ font-weight: bold;
 	height: 360px;
 }
 
+.gestoria p{
+	position: static;
+}
+
+.gestoria img{
+	position: static;
+}
+
 .divorcios{
 	display: block;	
 	margin-top: 20px;	
@@ -729,11 +739,27 @@ font-weight: bold;
 	height: 360px;
 }
 
+.divorcios p{
+	position: static;
+}
+
+.divorcios img{
+	position: static;
+}
+
 .asesoramiento{
 	display: block;	
 	margin-top: 20px;	
 	width: 300px;
 	height: 360px;
+}
+
+.asesoramiento p{
+	position: static;
+}
+
+.asesoramiento img{
+	position: static;
 }
 }
 
