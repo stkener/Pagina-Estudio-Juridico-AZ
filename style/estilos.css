@@ -670,104 +670,32 @@ font-weight: bold;
 /*----------------------SERVICIOS-------------------------*/
 
 .servicios{
-	position: absolute;
+	top: 100px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	height: 85.5vh;
+	background-color: rgb(207, 207, 207);
+	position: relative;
+	padding-left: 140px;
+	padding-top: 25px;
+	
 }
 
 .servicios img{
-	width: 200px;
-	height: 120px;
+	width: 300px;
+	height: 180px;
 }
 
 .servicios p{
-	width: 200px;
-	height: 120px;	
-	font-size: 11px;
+	width: 300px;
+	height: 180px;	
+	background-color: rgb(37, 31, 148);
+	color: rgb(240, 240, 240);
+	text-align: center;
 }
 
-.servicios{
-	padding-left: 10px;
-	padding-right: 10px;
-}
 
-.accidentesDos{
-	margin-top: 0px;
-	padding-bottom: 0px;
-}
-
-.accidentesDos p{
-	padding-top: 3px;
-}
-
-.jubilaciones{
-	margin-top: 0px;
-	padding-bottom: 0px;
-}
-
-.jubilaciones p{
-	padding-top: 3px;
-}
-
-.gestoria{
-	margin-top: 0px;
-	padding-bottom: 0px;
-	left: 0px;
-	top: 0px;	 
-}
-
-.gestoria img{
-	position: relative;
-	left: 200px;
-}
-
-.gestoria p{
-	padding-top: 5px;	
-	position: relative;
-	
-}
-
-.divorcios{
-	display: block;
-	margin-top: 0px;
-	padding-bottom: 0px;	
-	left: 0px;
-	top: 0px;
-}
-
-.divorcios img{
-	position: relative;
-	left: 90px;
-}
-
-.divorcios p{
-	padding-right: 3px;
-	padding-left:  3px;
-	padding-top: 2px;
-	position: relative;
-	left: 80px;
-}
-
-.asesoramiento{
-	display: block;
-	margin-top: 0px;
-	padding-bottom: 0px;
-	left: 0px;
-	top: 0px;
-	
-}
-
-.asesoramiento img{
-	padding: 0px;
-	margin: 0px;
-	position: relative;
-	left: 90px;
-}
-
-.asesoramiento p{
-	padding-right: 3px;
-	padding-left:  3px;
-	padding-top: 2px;
-	position: relative;
-	
-}
 }
 
