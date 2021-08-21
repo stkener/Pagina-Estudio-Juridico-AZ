@@ -686,7 +686,8 @@ font-weight: bold;
 }
 
 .accidentesDos{
-	margin-top: 3px;
+	margin-top: 0px;
+	padding-bottom: 0px;
 }
 
 .accidentesDos p{
@@ -694,11 +695,17 @@ font-weight: bold;
 }
 
 .jubilaciones{
+	margin-top: 0px;
+	padding-bottom: 0px;
+}
+
+.jubilaciones p{
 	padding-top: 3px;
 }
 
 .gestoria{
-	margin-top: 3px;	
+	margin-top: 0px;
+	padding-bottom: 0px;
 	left: 0px;
 	top: 0px;	 
 }
@@ -715,7 +722,8 @@ font-weight: bold;
 }
 
 .divorcios{
-	margin-top: 5px;	
+	margin-top: 0px;
+	padding-bottom: 0px;	
 	left: 0px;
 	top: 0px;
 }
@@ -734,7 +742,8 @@ font-weight: bold;
 }
 
 .asesoramiento{
-	margin-top: 5px;	
+	margin-top: 0px;
+	padding-bottom: 0px;
 	left: 0px;
 	top: 0px;
 	height: 200px;
