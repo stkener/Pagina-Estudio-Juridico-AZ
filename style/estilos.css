@@ -702,9 +702,12 @@ font-weight: bold;
 	display: block;
 }
 
+.accidentesUno img{
+	margin-top: 10px;
+}
+
 .accidentesDos{
 	display: block;	
-	margin-top: 20px;
 	width: 300px;
 	height: 360px;
 	
@@ -712,14 +715,12 @@ font-weight: bold;
 
 .jubilaciones{
 	display: block;	
-	margin-top: 20px;	
 	width: 300px;
 	height: 360px;
 }
 
 .gestoria{
 	display: block;	
-	margin-top: 20px;	
 	width: 300px;
 	height: 360px;
 }
@@ -734,7 +735,6 @@ font-weight: bold;
 
 .divorcios{
 	display: block;	
-	margin-top: 20px;	
 	width: 300px;
 	height: 360px;
 }
@@ -749,7 +749,6 @@ font-weight: bold;
 
 .asesoramiento{
 	display: block;	
-	margin-top: 20px;	
 	width: 300px;
 	height: 360px;
 }
