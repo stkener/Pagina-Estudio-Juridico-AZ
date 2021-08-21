@@ -711,7 +711,7 @@ font-weight: bold;
 	display: block;	
 	width: 300px;
 	height: 360px;
-	margin-top: -20px;
+	
 }
 
 .accidentesDos p{
@@ -724,6 +724,7 @@ font-weight: bold;
 	margin: 0px;
 	position: relative;
 	top: -180px;
+	margin-top: 20px;
 }
 
 .jubilaciones{
@@ -755,7 +756,7 @@ font-weight: bold;
 .divorcios p{
 	margin: 0px;
 	position: relative;
-	right: -100px;
+	
 	bottom: -180px;
 }
 
