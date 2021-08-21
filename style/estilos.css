@@ -916,12 +916,13 @@ text-decoration-line: none;
 }
 /*-------------------------NOSOTROS----------------------------*/
 .nosotrosPortada{
-	height: 100%;
+	
 }
 
 .nosotros{
 	display:block;
-	padding-bottom: 0px;
+	
+
 }
 
 .nosotros img{
