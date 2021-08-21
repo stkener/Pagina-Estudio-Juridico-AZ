@@ -921,7 +921,7 @@ text-decoration-line: none;
 
 .nosotros{
 	display:block;
-	padding-bottom: -10px;
+	padding-bottom: 0px;
 }
 
 .nosotros img{
