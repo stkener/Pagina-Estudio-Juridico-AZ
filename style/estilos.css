@@ -756,8 +756,8 @@ font-weight: bold;
 .divorcios p{
 	margin: 0px;
 	position: relative;
-	
 	bottom: -180px;
+	left: 300px;
 }
 
 .divorcios img{
