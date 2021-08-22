@@ -699,7 +699,7 @@ text-decoration-line: none;
 /*-----------------------------------------------------------------*/
 /*----------------------RESPONSIVE CELULAR-------------------------*/
 /*-----------------------------------------------------------------*/
-@media screen and (max-width: 365px){
+@media screen and (max-width: 500px){
 	
 	.Titulo p{
 		text-align: center;
